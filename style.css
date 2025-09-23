@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(23, 23, 23);
 }
 
 .topnav {
@@ -9,8 +9,7 @@ body {
     background: #8f0000;
     background: linear-gradient(180deg, rgba(143, 0, 0, 1) 0%, rgba(38, 0, 0, 1) 71%, rgba(3, 1, 1, 1) 80%, rgb(95, 0, 0) 100%);
     box-shadow: 10px 5px 5px rgb(0, 0, 0);
-    margin-bottom: 7vw;
-    margin-bottom: -5vw;
+    margin-bottom: -15vw;
 }
 
 .topnav a {
@@ -19,9 +18,18 @@ body {
     text-align: center;
     padding: 27px 29px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: 900;
     font-style: italic;
+}
+
+.logoMain {
+    float: left;
+    align-content: center;
+    width: 7vw;
+    height: auto;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
 }
 
 .topnav a:hover {
@@ -52,7 +60,7 @@ h2 {
     
  }
 
-img {
+.img1 {
     width: 15vw;
     height: auto;
     margin-left: 35vw;
@@ -63,4 +71,14 @@ img {
     margin-top: 15vw;
 }
 
+h3 {
+    text-align: center;
+    font-size: 20vw;
+    color: #ffffff;
+}
+
+#MainText {
+    opacity: 0;
+    transition: opacity 3.5s ease-in-out;
+}
 
