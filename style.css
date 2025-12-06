@@ -64,12 +64,23 @@ h3 {
 }
 
 #Info {
-    width: 40vw;
     margin-top: 6vw;
-    margin-left: 30%;
+    margin-left: 10%;
     margin-bottom: 10vw;
 }
 
 video {
     width: 30vw;
 }
+
+#greece {
+    width: 30vw;;
+}
+#OtroInfo {
+    grid-template-columns: auto auto auto;
+}
+
+#Text {
+    width: 40vw;
+}
+
